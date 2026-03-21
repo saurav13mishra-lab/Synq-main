@@ -1,120 +1,121 @@
-# Synq - Real-Time Chat Application
+# 🚀 Synq --- Real-Time Chat Application
 
-Synq is a full-stack, real-time chat web application designed for secure and user-friendly communication. This prototype features a modern tech stack with a modular architecture, including user authentication, profile management with image uploads, and a RESTful API for messaging.
+```{=html}
+<p align="center">
+```
+![React](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react)
+![Node](https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen?style=for-the-badge&logo=mongodb)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-## Key Features
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+A modern full-stack real-time chat application built using the MERN
+stack.
+```{=html}
+</p>
+```
 
-- Secure user authentication with JWTs in httpOnly cookies.
-- Profile management with Cloudinary for image uploads.
-- Customizable UI with a persistent theme selector.
-- RESTful API built with Express.js for all data operations.
-- Fully responsive design for desktop and mobile devices.
+------------------------------------------------------------------------
 
-## Technology Stack
+# ✨ Features
 
-- **Frontend**: React, Vite, Tailwind CSS, DaisyUI, Zustand, Axios  
-- **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, Cloudinary  
+### 🔐 Secure Authentication
 
----
+-   JWT based authentication
+-   HttpOnly cookie security
+-   Protected backend routes
 
-## Getting Started
+### 💬 Real-Time Messaging
 
-To get a local copy up and running, follow these steps.
+-   REST API messaging system
+-   Clean chat interface
+-   Scalable backend architecture
 
-### Prerequisites
+### 👤 User Profiles
 
-Make sure you have the following installed:
-- **Node.js** (v16 or higher)
-- **npm** or **yarn**
-- **MongoDB** (local or Atlas)
-- **Cloudinary account** (for image uploads)
+-   Profile editing
+-   Image upload support
+-   Cloudinary integration
 
----
+### 🎨 Modern UI
 
-## Backend Setup
+-   Responsive design
+-   Theme switcher
+-   Mobile friendly interface
 
-1. Navigate to the backend folder:
-   ```bash
-   cd backend
+------------------------------------------------------------------------
 
+# 🛠 Tech Stack
 
-2. Install dependencies:
+  Layer            Technologies
+  ---------------- -----------------------------------
+  Frontend         React, Vite, TailwindCSS, DaisyUI
+  Backend          Node.js, Express.js
+  Database         MongoDB
+  Authentication   JWT
+  Storage          Cloudinary
 
-   ```bash
-   npm install
-   ```
+------------------------------------------------------------------------
 
-3. Create a `.env` file inside the `backend` directory and add the following:
+# ⚙ Installation
 
-   ```env
-   MONGODB_URI=your_mongodb_connection_string
-   PORT=5001
-   JWT_SECRET=mysecretkey
-   NODE_ENV=development
+## Clone the Repository
 
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-   ```
+git clone https://github.com/SohamRokade007/Synq-main.git cd Synq-main
 
-4. Run the backend server:
+------------------------------------------------------------------------
 
-   ```bash
-   npm start
-   ```
+# Backend Setup
 
-   or for development with auto-restart (if nodemon is installed):
+cd backend npm install
 
-   ```bash
-   npm run dev
-   ```
+Create .env
 
-5. The backend should now be running on:
+MONGODB_URI=your_mongodb_connection_string PORT=5001
+JWT_SECRET=mysecretkey
 
-   ```
-   http://localhost:5001
-   ```
+Start backend
 
----
+npm run dev
 
-## Frontend Setup
+------------------------------------------------------------------------
 
-1. Navigate to the frontend folder:
+# Frontend Setup
 
-   ```bash
-   cd frontend
-   ```
+cd frontend npm install npm run dev
 
-2. Install dependencies:
+------------------------------------------------------------------------
 
-   ```bash
-   npm install
-   ```
+# 📸 Screenshots
 
-3. Start the frontend development server:
+Add screenshots here
 
-   ```bash
-   npm run dev
-   ```
+![Login](docs/login.png) ![Chat](docs/chat.png)
+![Profile](docs/profile.png)
 
-4. The app will be available at:
+------------------------------------------------------------------------
 
-   ```
-   http://localhost:5173
-   ```
+# 👥 Contributors
 
+Soham\
+Mayank\
+Prassana\
+Abhijith\
+Om\
+Saurav
 
+------------------------------------------------------------------------
 
+# 📜 License
 
-## Team
+MIT License
 
-This project was developed by:
+------------------------------------------------------------------------
 
-* Soham
-* Mayank
-* Prassana
-* Abhijith
-* Om
-* Saurav
-
-
+⭐ If you like the project, give it a star on GitHub.
